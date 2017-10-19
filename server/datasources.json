@@ -1,0 +1,12 @@
+{
+  "mySQL": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "mysql://root:Alfa1024@localhost:3306/Inventory",
+    "database": "Inventory",
+    "password": "Alfa1024",
+    "name": "mySQL",
+    "user": "root",
+    "connector": "mysql"
+  }
+}

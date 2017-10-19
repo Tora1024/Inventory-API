@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "ItemType": {
+    "dataSource": "mySQL",
+    "public": true
+  },
+  "Item": {
+    "dataSource": "mySQL",
+    "public": true
+  },
+  "Facility": {
+    "dataSource": "mySQL",
+    "public": true
+  },
+  "Employee": {
+    "dataSource": "mySQL",
+    "public": true
+  },
+  "Location": {
+    "dataSource": "mySQL",
+    "public": true
+  }
+}
